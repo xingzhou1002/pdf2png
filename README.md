@@ -20,7 +20,10 @@ pip install pymupdf
 cd ./pdf2png
 makepkg -si
 ```
-
+or
+```shell
+sudo pacman -U pdf2png-1.0-1-any.pkg.tar.zst
+```
 Also you can use nuitka to compile.
 ```shell
 cd ./src
